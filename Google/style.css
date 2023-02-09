@@ -1,0 +1,121 @@
+~* {
+    margin: 0;
+}
+.pesquisa {
+    width: 560px;
+    height: 39px;
+    border-radius: 30px;
+    border-color:#3b3d42;
+    background-color: #202124;
+    font-size: 14px;
+    color: white;
+    border: 02px solid #3b3d42;
+    margin-top: 25px;
+    padding: 20px;
+    
+}
+.pesquisa:focus {
+    background-color: #2b2d31;
+    border: none;
+    
+}
+.pesquisa input {
+    padding: 20px;
+}
+.pesquisa:hover {
+    background-color: #2b2d31;
+    border: none;
+}
+body {
+    text-align: center;
+    background-color: #202124;
+}
+.pesq, .estou {
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #303134;
+    background-color: #303134;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 11px 4px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    line-height: 27px;
+    width:144px ;
+}
+.pesq:hover, .estou:hover {
+    border:02px solid #3b3d42;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.gmail, .imagens, .gmaill, .user {
+    padding:0px 0px 0px 15px;
+    font: 13px arial,sans-serif;
+    margin-top: 10px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    width: 353.77px;
+    height: 150px;
+}
+.gmails {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.gmails:hover {
+    background-color: blue;
+}
+.user1 {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.Br {
+    border-bottom: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #a09c9c;
+    background-color: #0b0b0e;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 113px;
+}
+.infos {
+    
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: 40px;
+    line-height: 40px;
+    color: #a09c9c;
+    background-color: #0b0b0e;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.wrap {
+    bottom: 0;
+    position:absolute;
+    width:99%;  
+    text-align: center;
+    
+    
+    
+    
+}
